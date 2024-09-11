@@ -24,6 +24,10 @@ body {
     padding: 20px;
 }
 
+h1, .caixa-principal, .caixa-resultado {
+    
+}
+
 h1{
     color: var(--cor-destaque);
 }
