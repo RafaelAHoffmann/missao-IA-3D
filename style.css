@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #001 ;
+    --cor-principal: #112 ;
+    --cor-secundaria: #223; 
+    --cor-destaque: #3DF;
+    --cor-texto: #DFF;
 
 }
 
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,8 +27,8 @@ body {
     padding: 20px;
 }
 
-h1, .caixa-principal, .caixa-resultado {
-    
+h1, .caixa-perguntas, .caixa-resultado {
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 h1{
@@ -44,4 +47,18 @@ button {
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+
+.caixa-alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa-resultado {
+    display: none;
+}
+
+.caixa-resultado.mostrar {
+    display: block;
 }

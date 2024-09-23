@@ -1,60 +1,67 @@
 export const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Enunciado 1",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "texto 1",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
+                ],
+                proxima: 1,
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "texto 2",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
+                ],
+                proxmia: 2,
             }           
             
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Enunciado 1",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto: "texto 1",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
+                ],
+                proxima: 1,
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "texto 2",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
-            }
+                ],
+                proxmia: 2,
+            }           
+            
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Enunciado 1",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto: "texto 1",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
+                ],
+                proxima: 1,
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto: "texto 2",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
-                    ]
-            }
+                ],
+                proxmia: 2,
+            }           
             
         ]
     },
