@@ -61,7 +61,7 @@ function respostaSelecionada(opcaoSelecionada){
 
 function mostraResultado(){
     caixaPerguntas.textContent = `Em 2024, ${nome}`;
-    textoResultado.textContent = historiaFinal.replace(/você/g, nome);
+    textoResultado.textContent = historiaFinal.replace(/Você/g, nome);
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
@@ -76,7 +76,7 @@ function jogarNovamente() {
 
 function substituiNome() {
     for (const pergunta of perguntas) {
-        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+        pergunta.enunciado = pergunta.enunciado.replace(/Você/g, nome);
     }
 }
 
