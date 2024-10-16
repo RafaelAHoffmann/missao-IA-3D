@@ -11,9 +11,9 @@ botaoJogarNovamente = document.querySelector(".novamente-btn"),
 botaoIniciar = document.querySelector(".iniciar-btn"),
 telaInicial = document.querySelector(".tela-inicial");
 
-let atual = 0; 
-let perguntaAtual;
-let historiaFinal = "";
+let atual = 0,
+perguntaAtual,
+historiaFinal = "";
 
 botaoIniciar.addEventListener('click', iniciaJogo);
 
